@@ -1,0 +1,234 @@
+.bod{
+    background-image: url(Images/bg.png);
+}
+
+.topnav {
+    width: 100%;
+    display: flex;
+}
+.topnav ul li{
+    list-style: none;
+    display: inline;
+    margin:1em;
+}
+#fix{
+    font-size: 120px;
+    color: rgb(51, 50, 50);
+}
+.collection{
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+.bod{
+    width: 100%;
+    display: flex;
+}
+h1 span{
+    
+    color: rgb(153, 11, 11);
+}
+.first{
+    width: 60%;
+}
+.last{
+    width: 40%;
+    padding-left: 400px;
+}
+.almost{
+    text-align: center;
+}
+#head{
+    font-size: 50px;
+}
+#left{
+    width: 40%;
+}
+#right{
+    width: 60%;
+    
+}
+button{
+    border-radius: 10%;
+    background-color: rgb(184, 38, 38);
+    color: white;
+}
+#but{
+    background-color: rgb(248, 42, 69);
+}
+.best{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.puma{
+    width: 30%;
+    border: solid 1px;
+    border-radius: 10%;
+   
+}
+#pum{
+    transform: rotate(-30deg);
+
+
+}
+.nike{
+    width: 30%;
+    border: solid;
+    border-radius: 10%;
+}
+.adidas{
+    width: 30%;
+    border: solid;
+    border-radius: 10%;
+}
+#info{
+    float: right;
+}
+#feat{
+    text-align: center;
+}
+.shoe{
+    width: 100%;
+}
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#one{
+    width: 20%;
+    border: solid white 1px;
+    background-color: white;
+}
+#ton1{
+    padding: 10px;
+    color: white;
+}
+.ton{
+    text-align: center;
+}
+#ton {
+    margin-top: 20px;
+    padding: 15px;
+    color: white;
+
+}
+.almost{
+    width: 100%;
+}
+.cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10%;
+}
+.da{
+    width: 50%;
+    background-color: whitesmoke;
+    border: solid white 1px;
+    margin: left 25px;
+    
+}
+.de{
+    width: 50%;
+    background-color: whitesmoke;
+    border: solid white 1px;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+#two{
+    width: 220px;
+}
+#twoo{
+    float: right;
+
+}
+#mens{
+    color: lightcoral;
+}
+.aftermain{
+    background-color: rgb(233, 226, 226);
+}
+.there{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    border: solid;
+}
+.too{
+    width: 55%;
+    float: left;
+}
+.taa{
+    width: 40%;
+    position: relative;
+    
+
+}
+.front{
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    border: solid 1px;
+    border-radius: 10%;
+    position: absolute ;
+    z-index: 9;
+}
+.back{
+    width: 40%;
+    height: 50px;
+    margin-top:100px ;
+    margin-right: 80px;
+    padding-top: 60px;
+    border: solid 1px;
+    border-radius: 10%;
+    z-index: 1;
+}
+.finally{
+    width: 100%;
+    margin: 40px;
+    background-color: rgb(221, 150, 185);
+    text-align: center;
+    border: solid 0.5px;
+    padding: 20px -50px;
+    border-radius: 5%;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightcoral;
+    color: white;
+}
+footer ul li{
+    list-style: none;
+}
+.a{
+    width: 15%;
+}
+.bot{
+    display: flex;
+}
+#bot1{
+ width: 80px; 
+ border-radius: 40%;
+}
+#bot2{
+    width: 80px;
+    border-radius: 40%;
+}
+#test{
+font-size: 15px;
+color: lightcoral;
+}
+h2{
+    font-size: 30px;
+}
