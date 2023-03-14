@@ -284,4 +284,17 @@ body{
 #firsty{
     width: 60%;
 }
+
+@media only screen and (min-width:1168px) and (max-width:768px) {
+    body{
+        width: 600px;
+        background: rgb(190, 186, 186);
+    }
+    .first ul li{
+    font-size: 5px;
+    }
+    
+
+
+  }
     
