@@ -232,3 +232,39 @@ color: lightcoral;
 h2{
     font-size: 30px;
 }
+.hard{
+    width: 100%;
+    display: flex;
+}
+.shoe{
+    width: 50%;
+    padding-left: 100px;
+    z-index: 9;
+}
+#askmyshoe{
+    width: 500px;
+    height: 400px;
+}
+.shoes{
+    width: 50%;
+    display: flex;
+    padding-left: 50px;
+}
+#sole{
+    width: 150px;
+    height: auto;
+}
+.words{
+    width: 50%;
+}
+#sizes li{
+list-style: none;
+display: inline;
+padding: 0 8px;
+}
+.sm{
+    width: 100%;
+}
+.sm h2{
+    text-align: center;
+}
