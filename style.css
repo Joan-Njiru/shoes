@@ -66,6 +66,7 @@ button{
     width: 30%;
     border: solid 1px;
     border-radius: 10%;
+    background-image: linear-gradient(purple,rgb(203, 220, 221));
    
 }
 #pum{
@@ -77,11 +78,13 @@ button{
     width: 30%;
     border: solid;
     border-radius: 10%;
+    background-image: linear-gradient(crimson,purple);
 }
 .adidas{
     width: 30%;
     border: solid;
     border-radius: 10%;
+    background-image: linear-gradient(purple,blue);
 }
 #info{
     float: right;
@@ -242,6 +245,7 @@ h2{
     z-index: 9;
 }
 #askmyshoe{
+margin-top: 20px;
     width: 500px;
     height: 400px;
 }
@@ -267,4 +271,13 @@ padding: 0 8px;
 }
 .sm h2{
     text-align: center;
+}
+body{
+    overflow-x: hidden;
+}
+.hard{
+    background-image: url(Images/bg.png);
+}
+#cart{
+    background-image: linear-gradient(red,orange,pink);
 }
