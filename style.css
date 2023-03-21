@@ -34,7 +34,8 @@ h1 span{
 }
 .last{
     width: 40%;
-    padding-left: 400px;
+    padding-left: 300px;
+    display: flex;
 }
 .almost{
     text-align: center;
@@ -71,8 +72,9 @@ button{
 }
 #pum{
     transform: rotate(-30deg);
-
-
+}
+#pumas{
+    transform: rotate(-30deg);
 }
 .nike{
     width: 30%;
@@ -284,17 +286,207 @@ body{
 #firsty{
     width: 60%;
 }
+.mid1{
+    width: 100%;
+    display: flex;
+    margin: 0 100px;
+}
+.mid2{
+    width: 100%;
+    display: flex;
+    margin: 0 100px;
+}
+.mid3{
+    width: 100%;
+    display: flex;
+    margin: 0 100px;
+}
+.about{
+    text-align: center;
+}
+.topper{
+    width: 40%;
+}
+#redblack{
+    width: 400px;
+    border-radius: 10%;
+}
+.lor{
+    width: 50%;
+}
+.downer{
+    width: 40%;
+    margin-right: 50px;
 
-@media only screen and (min-width:1168px) and (max-width:768px) {
+}
+#butlinear{
+    background-image: linear-gradient(orange,rgb(233, 68, 164));
+    padding: 10px;
+    width: 100px;
+}
+.dy{
+    background-image: url(Images/bg.png);
+}
+.query{
+    text-align: center;
+}
+.search{
+    text-align: center;
+}
+#bars{
+    padding: 15px;
+    width: 400px;
+    border-radius: 30px;
+
+}
+#bigbar{
+    padding: 100px 0px;
+    width: 420px;
+    border-radius: 30px;
+}
+#bigbar placceholder{
+    padding-bottom: 30px;
+}
+#icon{
+    position: relative;
+    left: 30%;
+}
+@media only screen and (max-width:700px) {
     body{
-        width: 600px;
-        background: rgb(190, 186, 186);
+        background-color: aqua;
     }
     .first ul li{
-    font-size: 5px;
+    font-size: 10px;
+    }
+    .topnav{
+        display: flex;
+        width: 100%;
+    }
+    .top{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        margin-bottom: 20px;
+    }
+    .bottom{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        margin-bottom: 20px;
     }
     
+    #fix{
+        font-size: 50px;
+    }
+    #right{
+        width: 40%;
+    }
+    #mainshoe{
+        width: 150px;
+        padding-left: 40px;
+    }
+    .finally{
+        margin: 5px;
+    }
+    #one{
+  width: 150px;
+  height: 250px;
+  border-radius: 10%;
+  background-color: grey;
+    }
+    #pumas{
+        width: 80px;
+        transform: rotate(-30deg);
+    }
+    #pum{
+        width: 80px;
+    }
+    .there{
+        border: solid 0.5px;
+        width: 100%;
+        border-radius: 20px;
+    
+    }
+    .front{
+        width: 300px;
+    }
+    .back{
+       display: none;
+    }
+    .lan{
+        display: none;
+    }
+    .shoe{
+        padding-left: 0px;
+    }
+    #askmyshoe{
+        width: 150px;
+        height: 180px;
+    }
+    .shoes{
+        padding-left: 0px;
+    }
+    #sole{
+        width: 50px;
 
+    }
+    #firsty{
+        display: inline;
+        margin: 0.5rem;
+    }
+    .mid1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 50px;
+    }
+    .mid2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 50px;
+    }
+    .mid3{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 50px;
+    }
+    .words{
+        width: 30%;
+    }
+    footer{
+        height: 180px;
+        font-size: 5px;
+    }
+    .topnav ul li{
+        list-style: none;
+        display: inline;
+    }
+    .aftermain{
+        width: 100%;
+    }
+    .front{
+        width: 80%;
+        font-size: 10px;
+        
+    }
+    #two{
+        width: 100px;
+    }
+    #twa{
+        width: 100px;
+    }
+    #bot1{
+        width: 10px;
+
+    }
+    #bot2{
+        width: 10px;
+
+    }
+    .first{
+        display: inline-block;
+        font-size: 8px;
+    }
+    body{
+        overflow-x: hidden;
+    }
 
   }
     
